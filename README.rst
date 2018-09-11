@@ -210,9 +210,8 @@ this feature.
 
 Dependencies
 ------------
-1. Python 2.6 or above.
+1. Python 2.7, 3.4 or above.
 2. pathtools_
-3. select_backport_ (select.kqueue replacement for 2.6 on BSD/Mac OS X)
 4. XCode_ (only on Mac OS X)
 5. PyYAML_ (only for ``watchmedo`` script)
 6. argh_ (only for ``watchmedo`` script)
@@ -257,7 +256,6 @@ to do:
 .. _issue tracker: http://github.com/gorakhargosh/watchdog/issues
 
 .. _homebrew: http://mxcl.github.com/homebrew/
-.. _select_backport: http://pypi.python.org/pypi/select_backport
 .. _argh: http://pypi.python.org/pypi/argh
 .. _PyYAML: http://www.pyyaml.org/
 .. _XCode: http://developer.apple.com/technologies/tools/xcode.html
